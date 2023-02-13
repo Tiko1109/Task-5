@@ -1,0 +1,669 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-400';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-500';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-600';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+header {
+    text-align: center;
+}
+
+.tab, .logo {
+    display: inline;
+}
+
+header ul {
+    margin: 30px 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.tab.home,.tab.shop,.tab.about,.tab.blog,.tab.contact {
+    font-family: 'Poppins-500';
+    font-size: 18px;
+    line-height: 27px;
+    color: #3D3D3D;
+}
+
+.logo {
+    padding: 0 333px 0 0;
+    font-size: 0;
+}
+
+.logo a{
+    font-family: 'Oswald';
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.second-half {
+    color: #3F69FF;
+}
+
+.tab.icons {
+    margin: 0 0 0 288px;
+    cursor: pointer;
+}
+
+.profile-icon {
+    margin-right: 36px;
+}
+
+.tab.home {
+    margin-right: 52px;
+}
+
+.tab.home a:hover, .tab.shop a:hover, .tab.about a:hover, .tab.blog a:hover, .tab.contact a:hover {
+    text-decoration-line: underline;
+    color: #0052CC;
+}
+
+.tab.about {
+    margin: 0 52px;
+}
+
+.tab.contact {
+    margin: 0 0 0 52px;
+}
+
+.categories {
+    width: 100%;
+    height: 40px;
+    background-color: #0052CC;
+    padding: 11px 52px;
+}
+
+.categories img, .categories button, .categories div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.burger-bar {
+    cursor: pointer;
+}
+
+.categories button{
+    margin: 11px 360px 8px 17px;
+    font-family: 'Poppins-400';
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 389px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.search-bar img {
+    margin: 8px 18px 8px 14px;
+}
+
+.search-bar input {
+    margin: 11px 0;
+    width: 300px;
+    outline: none;
+    font-family: 'Poppins-400';
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ending.last input {
+    font-family: 'Poppins-400';
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.products-section h1 {
+    font-family: 'Poppins-500';
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 88px 0;
+    text-align: center;
+}
+
+.products {
+    width: 100%;
+    padding: 0 80px 0 80px;
+}
+
+.product-image {
+    border: 1px solid black;
+    box-shadow: 0px 2px 6px rgba(161, 161, 161, 0.25);
+    border-radius: 6px;
+}
+
+.product-image{
+    height: 313px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.product-image.first {
+    background-image: url(../img/Galaxy\ A32\ 5G\ front.png);
+}
+
+.product-image.first:hover {
+    background-image: url(../img/Galaxy\ A32\ 5G-back.png);
+    background-size: contain;
+}
+
+.product-image.second {
+    background-image: url(../img/iPhone\ 8\ Plus\ front.png);
+}
+
+.product-image.second:hover {
+    background-image: url(../img/iPhone\ 8\ Plus\ back.png);
+    background-size: contain;
+}
+
+.product-image.third {
+    background-image: url(../img/iPhone\ X\ front.png);
+}
+
+.product-image.third:hover {
+    background-image: url(../img/iPhone\ X\ back.png);
+    background-size: contain;
+}
+
+.product-image.last {
+    background-image: url(../img/Galaxy\ S9\ front.png);
+}
+
+.product-image.last:hover {
+    background-image: url(../img/Galaxy\ S9\ back.png);
+    background-size: contain;
+}
+
+.top-info h3, .top-info p {
+    display: inline-block;
+}
+
+.comment, .buttons {
+    display: inline-block;
+}
+
+.price.first {
+    margin-left: 87px;
+}
+
+.price.second {
+    margin-left: 92px;
+}
+
+.price.third {
+    margin-left: 130px;
+}
+
+.old-price.last {
+    margin-left: 63px;
+    margin-right: 14px;
+}
+.buttons button {
+    font-family: 'Poppins-500';
+    font-size: 12px;
+    line-height: 18px;
+    background-color: inherit;
+    border: none;
+    color: #000000;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.buttons.first {
+    margin-left: 102px;
+}
+
+.buttons.second {
+    margin-left: 68px;
+}
+
+.buttons.third {
+    margin-left: 67px;
+}
+
+.buttons.last {
+    margin-left: 63px;
+}
+
+.product-info {
+    margin-top: 17px;
+}
+
+.top-info h3 {
+    font-family: 'Poppins-600';
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    cursor: pointer;
+}
+
+.price {
+    font-family: 'Poppins-400';
+    font-style: italic;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #373737;
+}
+
+.old-price {
+    font-family: 'Poppins-400';
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+    color: #BD6161;
+}
+
+.comment {
+    font-family: 'Poppins-400';
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #6A6A6A;
+}
+
+.top-info::after {
+    content: url(../img/line.png);
+    display: block;
+    margin: 14px 0;
+}
+
+.line {
+    margin: 14px 0;
+}
+
+.product-card {
+    display: inline-block;
+}
+
+.product-card.second {
+    margin: 0 80px;
+}
+
+.product-card.last {
+    margin: 0 0 0 80px;
+}
+
+.products-section {
+    margin-bottom: 183px;
+}
+
+footer {
+    width: 100%;
+    height: 161px;
+    background: #0052CC;
+    padding: 44px 83px;
+    margin-top: 50px;
+}
+
+.social-media-icons div {
+    display: inline-block;
+}
+
+.ending {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ending a, .ending address {
+    font-family: 'Poppins-400';
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social-media-icons {
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+.icon-middle {
+    margin: 0 14px;
+}
+
+.footer-input {
+    width: 218px;
+    height: 16px;
+    padding: 12px 18px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    text-align: right;
+}
+
+.footer-input input, .footer-input span {
+    vertical-align: top;
+}
+
+.footer-input input {
+    width: 190px;
+    outline: none;
+}
+
+.middle {
+    margin: 13px 0;
+}
+
+.ending.second {
+    margin: 0 60px;
+}
+
+.ending.last {
+    margin-left: 219px;
+}
+
+.ending.last p {
+    width: 235px;
+    margin-top: 26px;
+    font-family: 'Poppins-600';
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    font-family: 'Oswald';
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-right: 273px;
+}
+
+.about-info {
+    padding: 50px 115px 74px;
+}
+
+.about-info h2, .core-values h2 {
+    font-family: 'Poppins-500';
+    font-size: 28px;
+    line-height: 42px;
+    color: #3F69FF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-info p {
+    font-family: 'Poppins-400';
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.smartshop {
+    font-weight: 600;
+}
+
+.who-we-are p {
+    display: inline;
+}
+
+.who-we-are {
+    width: 817px;
+}
+
+.who-we-are.second {
+    margin-top: 20px;
+}
+
+.top-image {
+    position: absolute;
+    left: 1131px;
+    top: 224px;
+    z-index: 2;
+}
+  
+.bottom-image {
+    position: absolute;
+    left: 1150px;
+    top: 264px;
+    z-index: 1;
+  }
+
+.customers-love {
+    margin-top: 74px;
+  }
+
+.customers-love p {
+    text-align: center;
+  }
+
+.core-value p {
+    font-family: 'Poppins-600';
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.core-values {
+    padding: 0 370px;
+}
+
+.core-value {
+    display: inline-block;
+}
+
+.core-value img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.core-value.second {
+    margin: 0 124px;
+}
+
+.core-value.last {
+    margin-left: 124px;
+}
+
+.blog-container {
+    padding: 41px 84px 51px 84px;
+}
+
+.blog-container h1 {
+    font-family: 'Poppins-600';
+    font-size: 50px;
+    line-height: 75px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.main-post h2 {
+    font-family: 'Poppins-600';
+    font-style: italic;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    width: 615px;
+    margin-top: 30px;
+}
+
+.main-post p {
+    font-family: 'Poppins-400';
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    width: 579px;
+    margin-top: 20px;
+}
+
+.main-post div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-post img {
+    width: 570px;
+    margin-right: 67px;
+}
+
+.blog-posts {
+    margin-top: 103px;
+}
+
+.blog-posts h3 {
+    font-family: 'Poppins-500';
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    width: 280px;
+    margin-top: 14px;
+}
+
+.blog-posts p {
+    font-family: 'Poppins-400';
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+    width: 280px;
+    margin-top: 10px;
+}
+
+.blog-post {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blog-post img {
+    display: inline-block;
+}
+
+.blog-post.first {
+    margin-right: 62px;
+}
+
+.blog-post.third {
+    margin: 0 62px;
+}
+
+.contact-container {
+    margin: 65px 66px 132px 104px;
+}
+
+.contact-container h1 {
+    font-family: 'Poppins-500';
+    text-transform: capitalize;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.contact-container p {
+    font-family: 'Poppins-400';
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.72);
+    margin: 10px 0 24px 0;
+}
+
+.message input {
+    height: 24px;
+    background: inherit;
+    border: 1px solid #7E7E7E;
+    border-radius: 6px;
+    padding: 12px 16px 12px 16px;
+    font-family: 'Poppins-400';
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(64, 64, 64, 0.5)
+}
+
+.message label {
+    font-family: 'Poppins-500';
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.72);
+    display: block;
+    margin-bottom: 11px;
+}
+
+.first-name, .last-name {
+    display: inline-block;
+}
+
+.first-name, .last-name input {
+    width: 264px;
+}
+
+.last-name {
+    margin-left: 53px;
+}
+
+.emai, .phone, .message-box {
+    margin-top: 26px;
+}
+
+.email input, .phone input {
+    width: 581px;
+}
+
+.message-box input {
+    width: 581px;
+    height: 133px;
+}
+
+.message-box {
+    margin-bottom: 25px;
+}
+.submit {
+    margin-left: 184px;
+}
+
+.submit input {
+    width: 209px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #3F69FF;
+    font-family: 'Poppins-500';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.message, .map {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.map {
+    margin-left: 99px;
+}
